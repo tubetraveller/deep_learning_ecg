@@ -1,0 +1,142 @@
+# Python Bytecode und Cache-Dateien
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyde
+
+# Virtuelle Umgebungen
+env/
+venv/
+ENV/
+.VENV/
+.venv/
+
+# IPython Notebook Checkpoints
+.ipynb_checkpoints/
+
+# IDE-Dateien
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Testdateien und Coverage-Berichte
+.tox/
+.nox/
+.coverage
+*.cover
+coverage.xml
+*.coveragerc
+
+# Log-Dateien
+*.log
+*.out
+*.err
+
+# Build- und Distribution-Ordner
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Cython- und andere generierte Dateien
+*.c
+*.so
+*.dll
+*.dylib
+
+# Datenbanken
+*.sqlite3
+*.db
+*.sqlite
+
+# Jupyter Notebook Ausgaben
+*.ipynb_out
+*.ipynb~ 
+
+# Temporäre Dateien
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.orig
+*.rej
+*~
+Thumbs.db
+.DS_Store
+
+# Datenfiles (CSV, JSON, Excel etc.)
+*.csv
+*.json
+*.xls
+*.xlsx
+*.parquet
+*.h5
+*.feather
+*.db
+
+# Modelle und große Binärdateien
+*.h5
+*.joblib
+*.pkl
+*.pt
+*.onnx
+*.pb
+*.tflite
+*.ckpt
+*.model
+*.weights
+
+# Ergebnisse von Data-Science-Prozessen
+results/
+output/
+plots/
+figures/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.pdf
+
+# Matplotlib Cache
+.matplotlib/
+
+# TensorFlow und PyTorch spezifische Dateien
+checkpoint
+*.tfevents.*
+
+# Python Paketverwaltung
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Conda Environments
+*.conda
+*.yaml
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Andere lokale Konfigurationsdateien
+*.env
+*.ini
+*.cfg
+
+# Caches von Data Science Tools
+/.ipython/
+__pycache__/
+
+# Directorys to ignore
+keras_tuner_dir/
+Models/
+myenv_2/
+App/
+EDA/
+
+# Files to ignore
+*.csv
