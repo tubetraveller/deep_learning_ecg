@@ -6,6 +6,7 @@ __pycache__/
 *.pyde
 
 # Virtuelle Umgebungen
+venv_notebook/
 env/
 venv/
 ENV/

@@ -86,15 +86,16 @@ To run the project, follow these steps:
         mv ~/Downloads/ptbdb_*.csv notebooks/data/
         ```
 ## Notebooks
-The `notebooks` directory contains two Jupyter notebooks:  
-- **`01_exploratory_data_analysis.ipynb`**: Performs comprehensive exploratory data analysis on the ECG signals, including visualizations, summary statistics, and initial data insights.  
-- **`02_model_and_preprocessing.ipynb`**: Implements the full preprocessing pipeline and the Residual 1D-CNN model training workflow, from data alignment to hyperparameter tuning.
+The `notebooks` directory contains tree Jupyter notebooks:  
+- **`01_summary.ipynb`**: A Summary of Deep Learning for ECG Analysis
+- **`0"_exploratory_data_analysis.ipynb`**: Performs comprehensive exploratory data analysis on the ECG signals, including visualizations, summary statistics, and initial data insights.  
+- **`03_deep_learning_and_data_augmentation.ipynb`**: Implements the full preprocessing pipeline and the Residual 1D-CNN model training workflow, from data alignment to hyperparameter tuning.
 
 ## Conclusion
 This project demonstrates the potential of combining data preprocessing techniques with explainable AI methods to enhance the interpretability of deep learning models for medical applications. By aligning ECG signals to cardiac phases and analyzing model predictions with SHAP, the approach provides both high performance and actionable insights for physicians.
 
 ## Personal Contribution
-This repository presents an extract from a broader team project, highlighting my individual contributions to the overall effort. In particular, I designed and implemented the ECG preprocessing pipeline for phase alignment, developed the Residual 1D-CNN model architecture, and led the interpretability analysis using SHAP to uncover the most influential cardiac-cycle features.
+This repository presents an extract from team project I was working on, highlighting my individual contributions to the overall effort. In particular, I designed and implemented the ECG preprocessing pipeline for phase alignment, the oversampling and data augmentation for class imbalance,  developed the Residual 1D-CNN model architecture, and led the interpretability analysis using SHAP to uncover the most influential cardiac-cycle features.
 
 ## License
 This project is licensed under the MIT License. 
