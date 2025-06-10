@@ -96,7 +96,7 @@ results/
 output/
 plots/
 figures/
-*.png
+# *.png
 *.jpg
 *.jpeg
 *.gif
