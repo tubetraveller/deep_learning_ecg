@@ -59,7 +59,7 @@ To assess the interpretability of the model, **SHAP (SHapley Additive exPlanatio
 
 ## Results
 The preliminary results indicate that aligning ECG signals to specific cardiac phases improves interpretability without compromising accuracy. Key evaluation metrics include:
-- **F1-Score**: High classification performance across all classes.
+- **F1-Score**: High classification performance across all classes - Weighted F1-Score 98,86%
 - **SHAP Analysis**: Highlights the phases of the cardiac cycle most relevant for distinguishing between classes.
 
 ## How to Run the Project
@@ -94,8 +94,12 @@ The `notebooks` directory contains tree Jupyter notebooks:
 ## Conclusion
 This project demonstrates the potential of combining data preprocessing techniques with explainable AI methods to enhance the interpretability of deep learning models for medical applications. By aligning ECG signals to cardiac phases and analyzing model predictions with SHAP, the approach provides both high performance and actionable insights for physicians.
 
-## Personal Contribution
-This repository presents an extract from team project I was working on, highlighting my individual contributions to the overall effort. In particular, I designed and implemented the ECG preprocessing pipeline for phase alignment, the oversampling and data augmentation for class imbalance,  developed the Residual 1D-CNN model architecture, and led the interpretability analysis using SHAP to uncover the most influential cardiac-cycle features.
+## Contributions
+The original work on this project began as a joint capstone. This repository represents only my individual contributions and ideas:
+- Designed and implemented the ECG preprocessing pipeline, including phase alignment.
+- Implemented oversampling and data augmentation strategies to address class imbalance.
+- Developed and optimized the Residual 1D-CNN model architecture.
+- Led interpretability analysis using SHAP to identify the most influential cardiac-cycle features.
 
 ## License
 This project is licensed under the MIT License. 
